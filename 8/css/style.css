@@ -46,7 +46,7 @@
   list-style: none;
   border-bottom: 1px solid rgba(1, 1, 1, 0.2);
 }
-.site-list__item a {
+.site-list__link {
   text-decoration: none;
   color: #ffffff;
 }
@@ -501,17 +501,6 @@
   height: 408px;
   border-bottom: 1px solid #e5e5e5;
 }
-.rocks {
-  display: inline-block;
-  width: 268px;
-  height: 52px;
-  text-align: center;
-  margin: 15px 25px 26px 26px;
-}
-.places {
-  width: 215px;
-  height: 46px;
-}
 .reviews__bridge {
   width: 46px;
   height: 46px;
@@ -565,6 +554,17 @@
   text-transform: uppercase;
   padding: 18.5px 30px 13.5px 30px;
   text-align: center;
+}
+.rocks {
+  display: inline-block;
+  width: 268px;
+  height: 52px;
+  text-align: center;
+  margin: 15px 25px 26px 26px;
+}
+.places {
+  width: 215px;
+  height: 46px;
 }
 .gallery {
   position: relative;
